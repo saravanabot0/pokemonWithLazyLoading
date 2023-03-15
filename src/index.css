@@ -1,0 +1,44 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+  width: .5rem;
+}
+::-webkit-scrollbar-track {
+  background-color: #d9cdcd;
+}
+::-webkit-scrollbar-thumb {
+  background-color: crimson;
+  border-radius: 1rem;
+}
+
+:root {
+  --whiteColor :#fff;
+  --lightFontWeight:500;
+  --mediumFontWeight: 600;
+  --darkFontWeight:700;
+  --smallFont:0.9rem;
+  --mediumFont:1rem;
+  --xMediumFont:1.1rem;
+  --largeFont:1.3rem;
+}
+
+/* ------------------------------------------ Media Queries ---------------------------------------------------- */
+@media screen and (min-width:300px) and (max-width:500px) {
+  ::-webkit-scrollbar {
+    width: .2rem;
+  }
+}
+
+@media screen and (min-width:500px) and (max-width:700px) {
+  ::-webkit-scrollbar {
+    width: .3rem;
+  }
+}

@@ -1,0 +1,33 @@
+.modal-90w {
+    width: 60%;
+    max-width: none!important;
+}
+.h4 {
+    text-transform: capitalize;
+}
+
+/*------------------------------------- Media Queries -------------------------------------------*/
+@media screen and (min-width:300px) and (max-width:375px) {
+    .modal-90w {
+        width: 95%;
+        max-width: none!important;
+    }
+  }
+  @media screen and (min-width:375px) and (max-width:700px) {
+    .modal-90w {
+        width: 95%;
+        max-width: none!important;
+    }
+  }
+  @media screen and (min-width:700px) and (max-width:950px) {
+    .modal-90w {
+        width: 90%;
+        max-width: none!important;
+    }
+  }
+  @media screen and (min-width:950px) and (max-width:1200px) {
+    .modal-90w {
+        width: 75%;
+        max-width: none!important;
+    }
+  }
